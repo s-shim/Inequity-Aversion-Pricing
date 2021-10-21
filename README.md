@@ -15,7 +15,7 @@ Lines 7 - 8 read 'lines_[datanum].csv' file in 'lines' folder and read 'nodes_[d
 Line 7: datanum = 0 # Data ID 0 - 9
 
 Line 8: repnum = 0 # Replicate ID : Random Value Function
-
+\
 
 Lines 14 - 16 set the discount options (activate only one line):
 
