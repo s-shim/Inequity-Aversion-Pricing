@@ -11,27 +11,19 @@ This data repository contains a python code to solve the inequity aversion prici
 <inequityAversionPricing.py>
 
 Lines 7 - 8 read 'lines_[datanum].csv' file in 'lines' folder and read 'nodes_[datanum]_[repnum].csv' file in 'nodes' folder:
-
 Line 7: datanum = 0 # Data ID 0 - 9
-
 Line 8: repnum = 0 # Replicate ID : Random Value Function
 
 
 Lines 14 - 16 set the discount options (activate only one line):
-
 Line 14: priceOptions = ['discontinuity', 200, 400, 500] # Table 1
-
 Line 15: # priceOptions = ['discontinuity', 66, 88, 101, 148, 210, 317, 416, 435, 536] # Table 2
-
 Line 16: # priceOptions = ['discontinuity', 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420, 450, 480, 510, 540, 570, 600] # Table 3
 
 
 Lines 18 - 20 set the tolerance (activate only one line):
-
 Line 18: tolerance = 100 # Table 1
-
 Line 19: # tolerance = 75 # Table 2
-
 Line 20: # tolerance = 0 # Table 3
 
 
